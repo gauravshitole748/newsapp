@@ -7,7 +7,7 @@ class Navbar extends Component {
     this.state = {
       theme: "light",
     };
-    console.log(this.state.theme);
+    //    console.log(this.state.theme);
     //Need to do this to make below functions can use "this"
     this.toggleTheme = this.toggleTheme.bind(this);
   }
@@ -76,7 +76,11 @@ class Navbar extends Component {
                   onClick={this.toggleTheme}
                 />
                 <label
-                  className="form-check-label"
+                  className={
+                    this.state.theme === "light"
+                      ? "form-check-label text-dark-emphasis"
+                      : "form-check-label text-light-emphasis"
+                  }
                   htmlFor="flexSwitchCheckDefault">
                   Dark
                 </label>
