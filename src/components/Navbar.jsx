@@ -7,19 +7,6 @@ class Navbar extends Component {
     this.state = {
       theme: "light",
     };
-    //    console.log(this.state.theme);
-    //Need to do this to make below functions can use "this"
-    this.toggleTheme = this.toggleTheme.bind(this);
-  }
-
-  toggleTheme() {
-    // console.log(this.state);
-    let theme = this.state.theme === "light" ? "dark" : "light";
-    // console.log(this.state);
-    this.setState({
-      theme,
-    });
-    // console.log(this.state);
   }
 
   render() {
@@ -27,7 +14,7 @@ class Navbar extends Component {
       <>
         <nav
           className="navbar navbar-expand-lg sticky-top bg-body-secondary"
-          data-bs-theme={this.state.theme}>
+          data-bs-theme={this.props.theme}>
           <div
             className="container-fluid"
             style={{ marginLeft: "0px", paddingLeft: "0px " }}>
@@ -69,15 +56,15 @@ class Navbar extends Component {
               <div className="form-check form-switch">
                 <input
                   className="form-check-input"
-                  data-bs-theme={this.state.theme}
+                  data-bs-theme={this.props.theme}
                   type="checkbox"
                   role="switch"
                   id="flexSwitchCheckDefault"
-                  onClick={this.toggleTheme}
+                  onClick={this.props.themeHandle}
                 />
                 <label
                   className={
-                    this.state.theme === "light"
+                    this.props.theme === "light"
                       ? "form-check-label text-dark-emphasis"
                       : "form-check-label text-light-emphasis"
                   }

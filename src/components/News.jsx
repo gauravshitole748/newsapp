@@ -336,6 +336,7 @@ export class News extends Component {
   ];
 
   constructor() {
+    //console.log("this is news constructor");
     super();
     this.state = {
       articles: this.articles,
@@ -343,11 +344,18 @@ export class News extends Component {
     };
   }
 
+  componentDidMount() {
+    //console.log("this is news componentDidMount");
+  }
+
   render() {
+    //console.log("this is news render");
     return (
       <>
         <div className="container my-3">
-          <h2>Top Headlines</h2>
+          <h2 style={{ color: this.props.theme === "light" ? "#000" : "#FFF" }}>
+            Top Headlines
+          </h2>
           <div className="row">
             {/* <div className="col-md-3">
               <NewsItem
@@ -365,6 +373,7 @@ export class News extends Component {
                       description={`${news.description.slice(0, 80)} ...`}
                       imageUrl={news.urlToImage}
                       url={news.url}
+                      theme={this.props.theme}
                     />
                   </div>
                 )
