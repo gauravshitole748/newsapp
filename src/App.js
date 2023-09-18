@@ -1,6 +1,8 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import News from "./components/News";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Pagination from "./components/Pagination";
 
 document.body.style.backgroundColor = "#FAFAFA";
 
@@ -26,8 +28,16 @@ export class App extends Component {
   render() {
     return (
       <>
-        <Navbar themeHandle={this.setTheme} theme={this.state.themeMode} />
-        <News theme={this.state.themeMode} />
+        <BrowserRouter>
+          <Navbar themeHandle={this.setTheme} theme={this.state.themeMode} />
+          <Routes>
+            <Route
+              exact
+              path="/"
+              element={<News theme={this.state.themeMode} />}></Route>
+          </Routes>
+          <Pagination />
+        </BrowserRouter>
       </>
     );
   }

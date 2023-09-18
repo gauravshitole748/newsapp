@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
   constructor() {
@@ -18,7 +19,7 @@ class Navbar extends Component {
           <div
             className="container-fluid"
             style={{ marginLeft: "0px", paddingLeft: "0px " }}>
-            <a className="navbar-brand" href="#"></a>
+            <Link className="navbar-brand" to="/"></Link>
             {/* added flex for AirNews text */}
             <div
               className="d-flex flex-row"
@@ -43,14 +44,14 @@ class Navbar extends Component {
               id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link className="nav-link" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to="/about">
                     About
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="form-check form-switch">

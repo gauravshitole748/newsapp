@@ -1,162 +1,84 @@
 {
   "status": "ok",
-  "totalResults": 38,
+  "totalResults": 68,
   "articles": [
     {
       "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
+        "id": "buzzfeed",
+        "name": "Buzzfeed"
       },
-      "author": "Kelsey Ables, Jennifer Hassan",
-      "title": "What to know about Nipah virus outbreak in India’s Kerala state - The Washington Post",
-      "description": "The virus has killed two so far and infected at least five in the state of Kerala and is considered a priority disease by the WHO for its epidemic potential.",
-      "url": "https://www.washingtonpost.com/world/2023/09/15/nipah-virus-india-kerala-outbreak/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YXXDKIBBI3T5SPHISXUNRFTEYQ.JPG&w=1440",
-      "publishedAt": "2023-09-15T08:42:59Z",
-      "content": "Comment on this story\r\nComment\r\nThe Indian state of Kerala is racing to contain a new outbreak of the deadly Nipah virus, which has killed two people so far and infected at least five, according to g… [+1073 chars]"
+      "author": "Abby Kass",
+      "title": "34 Travel Products To Bring On Your Next Trip To Europe - BuzzFeed",
+      "description": "The international power converter that works in more than 150 countries may just save you from shorting your curling iron...again.",
+      "url": "https://www.buzzfeed.com/abbykass/travel-items-to-bring-on-your-next-trip-to-europe-an",
+      "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2023-09/11/20/enhanced/591454ecd33e/original-1035-1694465903-2.jpg?crop=1581:830;0,0%26downsize=1250:*",
+      "publishedAt": "2023-09-17T04:01:03Z",
+      "content": "Anne Cate is a woman-owned small business based in Cleveland, Ohio that handmakes minimalist keepsakes with a skyline from more than 100 cities and colleges around the world!\r\nThe kit includes a hair… [+780 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Barron's"
+        "name": "San Francisco Chronicle"
       },
-      "author": "Craig Mellow",
-      "title": "Vietnam’s Economy Is on Fire. Why Its Stocks Aren’t. - Barron's",
-      "description": "Vietnam’s economy is growing, but there still aren’t many stocks for investors to choose from, even 35 years after Communist leaders launched market reform.",
-      "url": "https://www.barrons.com/articles/vietnams-economy-is-on-fire-why-its-stocks-arent-fe5efc8f",
-      "urlToImage": "https://images.barrons.com/im-64906355/social",
-      "publishedAt": "2023-09-15T07:56:00Z",
-      "content": "Vietnam is a rapidly emerging economic power. So, why isnt it an emerging market? The index gatekeepers at MSCI are sticking with the countrys frontier market status for the foreseeable future, preve… [+3631 chars]"
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "Chris Isidore, Vanessa Yurkevich",
-      "title": "UAW workers launch unprecedented strike against all Big Three automakers - CNN",
-      "description": "The United Auto Workers union is on strike against General Motors, Ford and Stellantis, the first time in its history that it has struck all three of America’s unionized automakers at the same time.",
-      "url": "https://www.cnn.com/2023/09/15/business/auto-workers-strike/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230914212929-03-uaw-strike-wayne.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2023-09-15T07:33:00Z",
-      "content": "The United Auto Workers union is on strike against General Motors, Ford and Stellantis, the first time in its history that it has struck all three of Americas unionized automakers at the same time.\r\n… [+7767 chars]"
+      "author": "Megan Fan Munce",
+      "title": "Burglars strike multiple businesses in the Oakland hills - San Francisco Chronicle",
+      "description": "Burglars strike multiple businesses in Oakland's Montclair Village, stealing cash and jewelry during overnight spree",
+      "url": "https://www.sfchronicle.com/crime/article/burglars-strike-multiple-businesses-oakland-hills-18371228.php",
+      "urlToImage": "https://s.hdnux.com/photos/01/31/27/15/23425888/12/rawImage.jpg",
+      "publishedAt": "2023-09-17T03:48:54Z",
+      "content": "A spree of break-ins in Oaklands Montclair Village left local business owners out several thousands of dollars Friday morning.Eric Kim, owner of EM Deli &amp; Catering, saw the break-in happen on his… [+1424 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Pff.com"
+        "name": "Detroit Free Press"
       },
-      "author": "Nathan Jahnke",
-      "title": "NFL Week 2 fantasy football start ’em, sit ’em | Fantasy Football News, Rankings and Projections - Pro Football Focus",
-      "description": "Running back David Montgomery and tight end Hunter Henry are among the best starts for Week 2 of the 2023 NFL season.",
-      "url": "https://www.pff.com/news/fantasy-football-nfl-week-2-start-em-sit-em-2023",
-      "urlToImage": "https://media.pff.com/2023/09/Montgomery-David-Alamy-scaled.jpg?w=956&h=538",
-      "publishedAt": "2023-09-15T07:26:25Z",
-      "content": "Anthony Richardson and Tua Tagovailoa are must-starts: Both quarterbacks have fine matchups this week but are at the point where they should be starters regardless of the matchup.\r\nJames Cooks breako… [+2736 chars]"
+      "author": "Brian Manzullo",
+      "title": "Winning Powerball numbers for Saturday, September 16, 2023 - Detroit Free Press",
+      "description": "The winning numbers for Powerball are in for the Saturday, September 16 drawing. The jackpot is an estimated $596 million.",
+      "url": "https://www.freep.com/story/news/local/michigan/2023/09/16/powerball-numbers-september-16-2023-lottery-drawing-results/70866930007/",
+      "urlToImage": "https://www.freep.com/gcdn/-mm-/50f1cb5c9ba6432bdaaddd7362631c656deffa28/c=0-216-1747-1203/local/-/media/2016/03/01/DetroitFreePress/DetroitFreePress/635924186225161573-lotteryfever-061212-kpm-60.jpg?width=1747&height=987&fit=crop&format=pjpg&auto=webp",
+      "publishedAt": "2023-09-17T03:02:08Z",
+      "content": "The Powerball winning numbers are in for the Saturday, September 16 drawing with a jackpot that reached an estimated $596 million ($284.2 million cash value).\r\nPowerball winning numbers\r\nThe winning … [+2199 chars]"
     },
     {
       "source": {
-        "id": "reuters",
-        "name": "Reuters"
+        "id": null,
+        "name": "Fox Business"
       },
-      "author": "Dawn Chmielewski, Kanjyik Ghosh, Dimpal Gulwani",
-      "title": "Mogul Byron Allen makes $10 bln bid for Disney's ABC, other networks - Reuters",
-      "description": "Media entrepreneur Byron Allen has made a $10 billion bid to buy Walt Disney's <a href=\"https://www.reuters.com/markets/companies/DIS.N\" target=\"_blank\">(DIS.N)</a> ABC television network and assets including the FX and National Geographic cable channels, a s…",
-      "url": "https://www.reuters.com/business/media-telecom/disney-holds-talks-with-nexstar-abc-sale-bloomberg-news-2023-09-14/",
-      "urlToImage": "https://www.reuters.com/resizer/zysKTDfzmef9l28FnvwwbAPeT1E=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2XMAL27ELRI6VLGJ55SLN4TZGE.jpg",
-      "publishedAt": "2023-09-15T07:07:30Z",
-      "content": "Sept 15 (Reuters) - Media entrepreneur Byron Allen has made a $10 billion bid to buy Walt Disney's (DIS.N) ABC television network and assets including the FX and National Geographic cable channels, a… [+1608 chars]"
+      "author": "Sarah Rumpf-Whitten",
+      "title": "Sen. Bernie Sanders torches automaker CEOs at UAW strike rally: 'Time to end your greed' - Fox Business",
+      "description": "At a Detroit rally for striking UAW employees, Senator Bernie Sanders cheered on striking auto workers and condemned \"their greed\" Friday.",
+      "url": "https://www.foxbusiness.com/politics/sen-bernie-sanders-torches-automaker-ceos-uaw-strike-rally-time-end-your-greed",
+      "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/09/0/0/7fa8da96-2.jpg?ve=1&tl=1",
+      "publishedAt": "2023-09-17T02:58:22Z",
+      "content": "Senator Bernie Sanders addressed striking United Auto Workers (UAW) employees in Detroit, Michigan on Friday, calling out automakers CEOs to \"end their greed.\"\r\nThe far-left senator’s remarks came on… [+3302 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WOLF STREET"
+      },
+      "author": null,
+      "title": "Fed’s Balance Sheet Liabilities: RRPs Plunge, Reserves Rise after Bank Panic, Currency in Circulation Dips after Pandemic Spike, TGA Gets Refilled - WOLF STREET",
+      "description": null,
+      "url": "https://wolfstreet.com/2023/09/16/feds-balance-sheet-liabilities-rrps-plunge-reserves-rise-after-bank-panic-currency-in-circulation-dips-after-pandemic-spike-tga-gets-refilled/",
+      "urlToImage": null,
+      "publishedAt": "2023-09-17T01:08:30Z",
+      "content": "QTs impact on the Feds liabilities, and the massive movements between them.\r\nThe daily measure of Overnight Reverse Repurchase agreements (ON RRPs) at the Fed have plunged to $1.40 trillion as of Fri… [+9580 chars]"
     },
     {
       "source": {
         "id": "the-wall-street-journal",
         "name": "The Wall Street Journal"
       },
-      "author": "Jason Douglas",
-      "title": "China's Economy Shows Fresh Signs of Fragile Recovery - The Wall Street Journal",
-      "description": "Spending in stores climbs, but the property sector continues to threaten growth",
-      "url": "https://www.wsj.com/world/china/chinas-economy-shows-fresh-signs-of-fragile-recovery-f20b32f2",
-      "urlToImage": "https://images.wsj.net/im-852644/social",
-      "publishedAt": "2023-09-15T05:28:00Z",
+      "author": "Gabriel T. Rubin, Joe Pinsker",
+      "title": "Student-Loan Restart Threatens to Pull $100 Billion Out of Consumers' Pockets - The Wall Street Journal",
+      "description": "Households are cutting back, worrying largest U.S. retailers",
+      "url": "https://www.wsj.com/personal-finance/student-loan-repayment-consumers-economy-2218ca25",
+      "urlToImage": "https://images.wsj.net/im-852270/social",
+      "publishedAt": "2023-09-17T01:00:00Z",
       "content": null
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Sports Illustrated"
-      },
-      "author": "Karl Rasmussen",
-      "title": "LeSean McCoy Had Epic Message for D’Andre Swift After Huge Game on ‘TNF’ - Sports Illustrated",
-      "description": "The Eagles running back’s big night drew an awesome reaction from the former Philly tailback.",
-      "url": "https://www.si.com/extra-mustard/2023/09/15/lesean-mccoy-epic-message-eagles-dandre-swift",
-      "urlToImage": "https://www.si.com/.image/ar_1.91%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_1200/MjAwODA3NTE3Mjg1MDAwMzk2/dandreswift.jpg",
-      "publishedAt": "2023-09-15T04:33:26Z",
-      "content": "Eagles running back D’Andre Swift stole the show on Thursday night, dominating on the ground in Philadelphia’s home-opening win against the Vikings.\r\nSwift racked up 175 rushing yards in the 34–28 wi… [+1060 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Boston 25 News"
-      },
-      "author": "Frank O'Laughlin",
-      "title": "Tropical storm warnings issued for Mass. as Hurricane Lee heads for New England - Boston 25 News",
-      "description": "Hurricane Lee is heading for New England after a week of wild weather across the region that produced catastrophic flash flooding, sinkholes, soaking thunderstorms, and tornado warnings.",
-      "url": "https://www.boston25news.com/news/local/tropical-storm-warnings-issued-mass-hurricane-lee-heads-new-england/3ZDDLBFPSVC4HJD543BLRF73WY/",
-      "urlToImage": "https://cmg-cmg-tv-10020-prod.cdn.arcpublishing.com/resizer/c7x0r5XqxtU_iuyGbR5uKJ5gmc8=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/XCTHFZC3ENE6DDYFON4ZADVMUA.jpg",
-      "publishedAt": "2023-09-15T03:38:00Z",
-      "content": "BOSTON — Hurricane Lee is heading for New England after a week of wild weather across the region that produced catastrophic flash flooding, sinkholes, strong thunderstorms, and tornado warnings.\r\nLee… [+3452 chars]"
-    },
-    {
-      "source": {
-        "id": "fox-sports",
-        "name": "Fox Sports"
-      },
-      "author": null,
-      "title": "Vikings vs. Eagles highlights: Eagles win 34-28 on Thursday Night Football - FOX Sports",
-      "description": "Jalen Hurts and the Eagles defeated the Vikings to kick off Week 2 of the NFL season. Here are the highlights!",
-      "url": "https://www.foxsports.com/stories/nfl/vikings-vs-eagles-live-updates-top-moments-from-thursday-night-football",
-      "urlToImage": "https://a57.foxsports.com/statics.foxsports.com/www.foxsports.com/content/uploads/2023/09/1408/814/09.14.23_NFL-Top-Plays_16x9.jpg?ve=1&tl=1",
-      "publishedAt": "2023-09-15T03:24:04Z",
-      "content": "Jalen Hurts and the Philadelphia Eagles (2-0) kicked off Week 2 of the 2023 NFL season, taking down the Minnesota Vikings (0-2) at Lincoln Financial Field. Running back D'Andre Swift led the way for … [+4501 chars]"
-    },
-    {
-      "source": {
-        "id": "al-jazeera-english",
-        "name": "Al Jazeera English"
-      },
-      "author": "Al Jazeera",
-      "title": "Ukraine says Russian missile defence destroyed in Crimea, 2 warships hits - Al Jazeera English",
-      "description": "Russian S-400 ‘Triumf’ surface-to-air missile defence system was reportedly destroyed in ‘special operation’ in Crimea.",
-      "url": "https://www.aljazeera.com/news/2023/9/15/ukraine-says-russian-missile-defence-destroyed-in-crimea-2-warships-hits",
-      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/09/2020-08-11T151254Z_1536611547_RC2RBI98JWQJ_RTRMADP_3_RUSSIA-DEFENCE-1694745345.jpg?resize=1920%2C1440",
-      "publishedAt": "2023-09-15T03:06:34Z",
-      "content": "Ukraine said its forces attacked two Russian patrol ships operating in the Black Sea and destroyed a sophisticated Triumf surface-to-air missile defence system in Russian-occupied Crimea, with milita… [+4574 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "ksltv.com"
-      },
-      "author": ", Andrew Adams",
-      "title": "Young Republicans, political observers weigh in on Romney decision to not run again - KSL.com",
-      "description": "As Sen. Mitt Romney announced Wednesday that he would not seek re-election, young Republicans labeled the move as wise while longtime political observers said both parties were now faced with tough questions about the future of their leadership.",
-      "url": "https://ksltv.com/586901/young-republicans-political-observers-weigh-in-on-romney-decision-to-not-run-again/",
-      "urlToImage": "https://ksltv.com/wp-content/uploads/2023/09/Screenshot-2023-09-13-at-11.59.58-AM.png",
-      "publishedAt": "2023-09-15T03:03:05Z",
-      "content": "SALT LAKE CITY As Sen. Mitt Romney announced Wednesday that he would not seek re-election, young Republicans labeled the move as wise while longtime political observers said both parties were now fac… [+2992 chars]"
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "Melanie Zanona, Annie Grayer, Manu Raju",
-      "title": "Kevin McCarthy stares down another right-wing revolt - CNN",
-      "description": "Facing renewed threats to his speakership, Kevin McCarthy is making a strategic bet: his critics don’t have the votes to oust him – and if they do, he’ll grind it out on the floor again as he did back in January.",
-      "url": "https://www.cnn.com/2023/09/14/politics/kevin-mccarthy-right-wing-revolt/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230914112850-01-kevin-mccarthy-091423.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2023-09-15T02:41:00Z",
-      "content": "Facing renewed threats to his speakership, Kevin McCarthy is making a strategic bet: his critics dont have the votes to oust him and if they do, hell grind it out on the floor again as he did back in… [+11271 chars]"
     },
     {
       "source": {
@@ -173,94 +95,172 @@
     },
     {
       "source": {
-        "id": null,
-        "name": "WPVI-TV"
+        "id": "buzzfeed",
+        "name": "Buzzfeed"
       },
-      "author": null,
-      "title": "Escaped Pa. prisoner manhunt: Captured killer Danelo Cavalcante sent to maximum-security prison where Bill Cosby did time - WPVI-TV",
-      "description": "Cavalcante, who is also facing homicide charges in his native Brazil, \"is in a specialized observation unit for classification and security reasons.\"",
-      "url": "https://6abc.com/danelo-cavalcante-maximum-security-prison-pa-prisoner-manhunt-escaped-murderer/13784395/",
-      "urlToImage": "https://cdn.abcotvs.com/dip/images/13780103_091323-wpvi-main-cavalcante-10pm-video-vid.jpg?w=1600",
-      "publishedAt": "2023-09-15T01:49:13Z",
-      "content": "Captured killer Danelo Cavalcante woke up Thursday in a maximum-security Pennsylvania state prison that has never had a successful escape and once housed comedian Bill Cosby.\r\nThe 34-year-old former … [+5813 chars]"
-    },
-    {
-      "source": {
-        "id": "espn",
-        "name": "ESPN"
-      },
-      "author": null,
-      "title": "Jets QB Aaron Rodgers says surgery for torn Achilles 'went great' - ESPN - ESPN",
-      "description": "New York Jets quarterback Aaron Rodgers said Thursday that surgery to repair a torn Achilles tendon in his left leg \"went great.\"",
-      "url": "https://www.espn.com/nfl/story/_/id/38402084/jets-qb-aaron-rodgers-says-surgery-torn-achilles-went-great",
-      "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F0913%2Fr1224138_1296x729_16%2D9.jpg",
-      "publishedAt": "2023-09-15T01:32:00Z",
-      "content": "Sep 14, 2023, 09:32 PM ET\r\nNew York Jets quarterback Aaron Rodgers said Thursday that surgery to repair a torn Achilles tendon in his left leg \"went great.\"\r\nThe 39-year-old Rodgers suffered the seas… [+1949 chars]"
-    },
-    {
-      "source": {
-        "id": "cnn",
-        "name": "CNN"
-      },
-      "author": "Marshall Cohen, Kara Scannell, Hannah Rabinowitz",
-      "title": "Hunter Biden indicted on gun charges - CNN",
-      "description": "President Joe Biden’s son, Hunter Biden, has been indicted by special counsel David Weiss in connection with a gun he purchased in 2018, the first time in US history the Justice Department has charged the child of a sitting president.",
-      "url": "https://www.cnn.com/2023/09/14/politics/hunter-biden/index.html",
-      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230830120900-01-house-oversight-hunter-biden.jpg?c=16x9&q=w_800,c_fill",
-      "publishedAt": "2023-09-15T01:24:00Z",
-      "content": "President Joe Bidens son, Hunter Biden, has been indicted by special counsel David Weiss in connection with a gun he purchased in 2018, the first time in US history the Justice Department has charged… [+6825 chars]"
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "Widlore Mérancourt, Samantha Schmidt, Amanda Coletta",
-      "title": "Dominican Republic closes border with Haiti, further stoking tensions - The Washington Post",
-      "description": "The neighbors share the Caribbean island of Hispaniola and a long history of strained relations.",
-      "url": "https://www.washingtonpost.com/world/2023/09/14/dominican-republic-closes-border-with-haiti-further-stoking-tensions/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EWDOJAHCNFVPCXS7F7HJYZPPQU.JPG&w=1440",
-      "publishedAt": "2023-09-15T01:17:00Z",
-      "content": "Comment on this story\r\nComment\r\nPORT-AU-PRINCE, Haiti The Dominican Republic had already begun building a wall at its border with Haiti. Then it cracked down on immigration, deporting tens of thousan… [+7919 chars]"
-    },
-    {
-      "source": {
-        "id": "abc-news",
-        "name": "ABC News"
-      },
-      "author": "Deena Zaru",
-      "title": "Tory Lanez denied bond as he appeals 10-year sentence in shooting of Megan Thee Stallion - ABC News",
-      "description": "Lanez was convicted in Dec. 2022 of shooting and injuring the hip-hop star.",
-      "url": "https://abcnews.go.com/US/tory-lanez-denied-bond-appeals-10-year-sentence/story?id=103185176",
-      "urlToImage": "https://i.abcnewsfe.com/a/83cad888-57b9-42f1-a7e3-eac831732b97/rapper-tory-lanez-ap-moe-013-230808_1691533579213_hpMain_16x9.jpg?w=992",
-      "publishedAt": "2023-09-15T01:16:28Z",
-      "content": "Rapper Tory Lanez was denied bond by a Los Angeles County Superior Court judge during a hearing on Thursday afternoon as his new legal team appeals his 10-year sentence in the shooting of hip-hop sta… [+3601 chars]"
+      "author": "Kayla Boyd, Daniel Boan",
+      "title": "36 Products You Need If Your Roomies Are Adult Children - BuzzFeed",
+      "description": "If you're tired of tripping over their shoes at the door or dealing with the half-eaten bags of chips left open on the counter, you're gonna want to keep reading.",
+      "url": "https://www.buzzfeed.com/kaylaboyd/products-roommates-are-adult-children",
+      "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2023-09/12/15/enhanced/f927776217d7/original-580-1694532752-4.jpg?crop=1581:830;0,0%26downsize=1250:*",
+      "publishedAt": "2023-09-16T23:31:02Z",
+      "content": "Promising review: \"Im thrilled. I love the fact there are multiple ear tips, and the small ones fit my ears great. Thrilled with the noise-cancelling feature while I stare at a family member yapping … [+1280 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "NDTV News"
+        "name": "KTLA Los Angeles"
       },
-      "author": null,
-      "title": "US Surgeons Transplant Pig Kidney In Brain-Dead Human In 61-Day Experiment - NDTV",
-      "description": "US surgeons who transplanted a genetically modified pig kidney into a brain-dead patient announced Thursday they had ended their experiment after a record-breaking 61 days.",
-      "url": "https://www.ndtv.com/world-news/us-surgeons-report-longest-successful-pig-to-human-kidney-transplant-4391339",
-      "urlToImage": "https://c.ndtvimg.com/2019-09/v1t8enpc_doctor-surgery-generic-_625x300_18_September_19.jpg",
-      "publishedAt": "2023-09-15T00:33:43Z",
-      "content": "The US surgeon team had conducted the experiment into a brain-dead patient. (Representational)\r\nWashington: US surgeons who transplanted a genetically modified pig kidney into a brain-dead patient an… [+2711 chars]"
+      "author": "Nathaniel Rodriguez",
+      "title": "McDonald’s offers 50-cent double cheeseburgers for National Cheeseburger Day - KTLA Los Angeles",
+      "description": "Everyone knows McDonald’s cheeseburgers are popular, but they taste even better when they barely cost anything. Thursday, the fast food chain announced that it would be celebrating National Cheeseburger Day, which is on Sept. 18, by offering its double cheese…",
+      "url": "https://ktla.com/news/mcdonalds-offers-50-cent-double-cheeseburgers-for-national-cheeseburger-day/",
+      "urlToImage": "https://ktla.com/wp-content/uploads/sites/4/2023/09/ca._mcdonalds_gettyimages-84709618-1-1.jpg?w=1280",
+      "publishedAt": "2023-09-16T22:51:58Z",
+      "content": "Everyone knows McDonald’s cheeseburgers are popular, but they taste even better when they barely cost anything.\r\nThursday, the fast food chain announced that it would be celebrating National Cheesebu… [+651 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "KGW.com"
+        "name": "East Idaho News"
       },
-      "author": "Ashley Grams",
-      "title": "OHSU scientists discover condition that contributes to Alzheimer's by triggering a cascade of degeneration among immune cells in the brain - KGW.com",
-      "description": "Studying the brains of patients who had died with Alzheimer's, the researchers discovered that cells responsible for removing debris in the brain had been dying off.",
-      "url": "https://www.kgw.com/article/news/health/healthier-together/ohsu-scientists-discover-new-cause-alzheimers/283-9473cf8d-5ae7-4f47-bca4-8e572e01727f",
-      "urlToImage": "https://media.kgw.com/assets/KGW/images/ded05c93-88d6-4b75-9d07-84b069d18f32/ded05c93-88d6-4b75-9d07-84b069d18f32_1140x641.jpg",
-      "publishedAt": "2023-09-15T00:17:00Z",
-      "content": "PORTLAND, Ore. Alzheimer's disease is a devastating yet common condition, made all the more painful by the fact that there's no cure and the disease is difficult to study. But after seven years of wo… [+3048 chars]"
+      "author": null,
+      "title": "Two Vegas casinos fell victim to cyberattacks, shattering the image of impenetrable casino security - East Idaho News",
+      "description": "LAS VEGAS (AP) — A persistent error message greeted Dulce Martinez on Monday as she tried to access her casino rewards account to book accommodations for an upcoming business trip. That’s odd, she thought, then toggled over to Facebook to search for clues abo…",
+      "url": "https://www.eastidahonews.com/2023/09/two-vegas-casinos-fell-victim-to-cyberattacks-shattering-the-image-of-impenetrable-casino-security/",
+      "urlToImage": "https://s3.us-west-2.amazonaws.com/assets.eastidahonews.com/wp-content/uploads/2023/09/Vegas-Hacked-ap.jpeg",
+      "publishedAt": "2023-09-16T22:30:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Matthew Sedacca",
+      "title": "United Airlines passenger recounts 'sick feeling' on plane to Rome that plunged 28,000 feet in 10 minutes - New York Post ",
+      "description": "Artist Tato Lovere recalled thinking she was “going to die” aboard United Airlines Flight 510 to Rome when the plane fell 28,000 feet in 10 minutes.",
+      "url": "https://nypost.com/2023/09/16/united-airlines-passenger-shares-experience-plunging-28k-feet-aboard-plane/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/09/NYPICHPDPICT000039677515.jpg?quality=75&strip=all&w=1024",
+      "publishedAt": "2023-09-16T21:27:00Z",
+      "content": "A Jersey City artist recounted the stomach-churning moment she thought she was going to die aboard a United Airlines flight that plummeted nearly 30,000 feet in just 10 minutes earlier this week. \r\nT… [+3103 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KGO-TV"
+      },
+      "author": null,
+      "title": "Dreamforce 2023: What does San Francisco need to do to fix its image now that Salesforce convention is done for the year? - KGO-TV",
+      "description": "San Francisco put on its best face for the recent Dreamforce Convention. During the past three days, it was all about safety and clean streets, but what happens now that all of the visitors are gone? What are the city's plans to continue fixing its image?",
+      "url": "https://abc7news.com/dreamforce-san-francisco-salesforce-moscone-center-marc-benioff/13788368/",
+      "urlToImage": "https://cdn.abcotvs.com/dip/images/13790813_091523-kgo-dreamforce-generic-img.jpg?w=1600",
+      "publishedAt": "2023-09-16T21:02:13Z",
+      "content": "SAN FRANCISCO (KGO) -- San Francisco put on its best face for the recent Dreamforce Convention. During the past three days, it was all about safety and clean streets, two things we haven't seen much … [+5957 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "InStyle"
+      },
+      "author": "https://www.facebook.com/InStyle",
+      "title": "The 20 Best Designer Deals at Amazon: Ugg, Tory Burch, and More Up to 89% Off - InStyle",
+      "description": "Amazon’s clothing outlet is overflowing with deals on designer brands. Shop Ugg boots, a Tory Burch sweater, Frye accessories, and Swarovski jewelry for up to 89 percent off.",
+      "url": "https://www.instyle.com/amazon-designer-outlet-deals-september-2023-7970476",
+      "urlToImage": "https://www.instyle.com/thmb/II_uwitK7y3O8wdwCLVN9sWkaxs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/091423-desginer-fashion-deals-social-2a5e9f8753024d7e87a702eecf47df52.jpg",
+      "publishedAt": "2023-09-16T21:00:00Z",
+      "content": "Falls official start is merely weeks away, which means its crunch time when it comes to seasonal shopping. Im giving my autumn wardrobe a major revamp, and naturally Im turning to Amazon for stylish,… [+3250 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Craig Stirling, Vince Golle",
+      "title": "World Adapts to Fed's Rate Order in 36-Hour Sequence - Bloomberg",
+      "description": "A 36-hour rush of global monetary decisions may set the tone for the rest of the year as the world adjusts to a US push to keep interest rates high.",
+      "url": "https://www.bloomberg.com/news/articles/2023-09-16/world-adapts-to-fed-s-rate-order-in-36-hour-sequence",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iTxrsQFz69nQ/v0/1200x811.jpg",
+      "publishedAt": "2023-09-16T20:15:57Z",
+      "content": "A 36-hour rush of global monetary decisions may set the tone for the rest of the year as the world adjusts to a US push to keep interest rates high.\r\nStarting with the Federal Reserve on Wednesday an… [+129 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": "Reuters",
+      "title": "Fed unlikely to raise rates in November, says Goldman Sachs - Reuters",
+      "description": "The Federal Reserve is unlikely to raise interest rates at its Oct. 31-Nov. 1 meeting, Goldman Sachs strategists wrote on Saturday, while also forecasting the U.S. central bank would lift its economic growth projections when policymakers gather next week.",
+      "url": "https://www.reuters.com/markets/us/fed-unlikely-raise-rates-november-says-goldman-sachs-2023-09-16/",
+      "urlToImage": "https://www.reuters.com/resizer/JcGVLrwYT3OevbBRzcoOGKxTLDQ=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4GSMSCQZHNM35FWLDB3F77TU7Y.jpg",
+      "publishedAt": "2023-09-16T19:34:00Z",
+      "content": "Sept 16 (Reuters) - The Federal Reserve is unlikely to raise interest rates at its Oct. 31-Nov. 1 meeting, Goldman Sachs strategists wrote on Saturday, while also forecasting the U.S. central bank wo… [+2025 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "nj.com"
+      },
+      "author": "Katie Kausch | NJ Advance Media for NJ.com",
+      "title": "Household incomes in 8 N.J. counties top $100K. See how your county ranks. - NJ.com",
+      "description": "New Jersey has 1 county with income levels below the national median, according to the latest U.S. Census data.",
+      "url": "https://www.nj.com/data/2023/09/household-incomes-in-8-nj-counties-top-100k-see-how-your-county-ranks.html",
+      "urlToImage": "https://www.nj.com/resizer/d9SVYJJJ4rbd-Q5yv-FBsfrj2HU=/1280x0/filters:focal(804x85:814x75)/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/H6POWTTQU5EMFNL4CB2NYHEQJA.jpg",
+      "publishedAt": "2023-09-16T19:00:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WPLG Local 10"
+      },
+      "author": "Ryan  Mackey",
+      "title": "Florida man wins $2 million prize playing Lottery scratch-off game at 7-Eleven - WPLG Local 10",
+      "description": "A Florida man turned $10 into a $2 million prize after playing the Gold Rush Doubler scratch-off game, Lottery officials confirmed Friday.",
+      "url": "https://www.local10.com/news/local/2023/09/16/florida-man-wins-2-million-prize-playing-lottery-scratch-off-game-at-7-eleven/",
+      "urlToImage": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/T4SQIDL56VA4HFFQZPTYOIYPOQ.webp?_a=ATAPphC0",
+      "publishedAt": "2023-09-16T17:51:45Z",
+      "content": "VOLUSIA COUNTY, Fla. A Florida man turned $10 into a $2million prize after playing the Gold Rush Doubler scratch-off game, Lottery officials confirmed Friday. \r\nAccording to the Florida Lottery, Alex… [+637 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tastingtable.com"
+      },
+      "author": "Autumn Swiers",
+      "title": "More Than 58,000 Pounds Of Ground Beef Recalled Over E. Coli Concerns - Yahoo Canada Finance",
+      "description": "An E. coli driven recall has impacted more than 58,000 pounds of ground beef. Anyone who may have purchased the affected products should not consume them.",
+      "url": "https://www.tastingtable.com/1396151/58000-pounds-ground-beef-recalled-e-coli/",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/cplkw3EQtb8uUAOQmVQmuA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/tasting_table_543/44242dc49e535688d853bbb8d3d80489",
+      "publishedAt": "2023-09-16T17:35:04Z",
+      "content": "Ground beef inspection - Alle12/Getty Images\r\nOn September 15, approximately 58,281 pounds of raw ground beef were recalled due to possible E. coli contamination, per an official announcement by the … [+2990 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Times of San Diego"
+      },
+      "author": "Debbie L. Sklar",
+      "title": "San Diego County Gas Price Records Largest Increase Since Sept. 30, 2022 - Times of San Diego",
+      "description": "The average price of a gallon of self-serve regular gasoline in San Diego County recorded its largest daily increase since Sept. 30 Saturday, rising 7.2 cents to $5.692, its highest amount since Oct. 26, 2022.",
+      "url": "http://timesofsandiego.com/business/2023/09/16/san-diego-county-gas-price-records-largest-increase-since-sept-30-2022/",
+      "urlToImage": "https://timesofsandiego.com/wp-content/uploads/2022/09/IMG_6543-scaled.jpg",
+      "publishedAt": "2023-09-16T17:20:59Z",
+      "content": "A Union 76 gas pump in San Diego. Photo credit: Staff photo\r\n The average price of a gallon of self-serve regular gasoline in San Diego County recorded its largest daily increase since Sept. 30 Satur… [+1910 chars]"
+    },
+    {
+      "source": {
+        "id": "financial-times",
+        "name": "Financial Times"
+      },
+      "author": "Nicholas Megaw",
+      "title": "Arm IPO delivers $84mn fees bonanza for its advisers - Financial Times",
+      "description": "Non-underwriting costs of flotation are the highest Wall Street has seen for five years, according to FT analysis",
+      "url": "https://www.ft.com/content/71c08901-3bf1-4435-ae3f-ff608736be33",
+      "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252Fdfd23125-b822-44b3-bf42-95cef6f3098e.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&fit=scale-down&width=900",
+      "publishedAt": "2023-09-16T15:00:55Z",
+      "content": "Arms $5bn initial public offering this week was the most expensive in fees for five years, earning a $84mn windfall for the professional services firms that advised it, including Deloitte.\r\nThe SoftB… [+2652 chars]"
     }
   ]
 }
