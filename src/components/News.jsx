@@ -3,6 +3,7 @@ import NewsItem from "./NewsItem";
 
 import ApiService from "../Api.service";
 import LoadingBar from "./LoadingBar";
+import Pagination from "./Pagination";
 
 export class News extends Component {
   sample_articles = {
@@ -342,68 +343,146 @@ export class News extends Component {
     ],
   };
 
+  defaultPageSize = 10;
+
   constructor() {
-    ////console.log("this is news constructor");
+    //////console.log("this is news constructor");
     super();
     this.state = {
-      //   articles: [],
-      articles: this.sample_articles.articles,
+      articles: [],
+      //   articles: this.sample_articles.articles,
       loading: false,
-      pageSize: 6,
+      totalResults: 0,
+      page: 1,
     };
+
+    //bindings
+    this.getApiData = this.getApiData.bind(this);
+    this.handleNextClick = this.handleNextClick.bind(this);
+    this.handlePrevClick = this.handlePrevClick.bind(this);
+    this.handlePaginationClick = this.handlePaginationClick.bind(this);
   }
 
-  async getApiData() {
-    // //console.log("inside getApiData");
-    // try {
-    //   this.setState({ loading: true });
-    //   const data = await ApiService.httpGet("/top-headlines");
-    //   //console.log("-- logging data --");
-    //   //console.log(data);
-    //   this.setState({ articles: data.articles, pageSize: data.totalResults ,loading: false });
-    // } catch (err) {
-    //   console.error(err);
-    // } finally {
-    //   this.setState({ loading: false });
-    //   //console.log("inside finally");
-    //   //console.log(this.state);
-    // }
+  async getApiData(apiParams) {
+    //console.log("inside getApiData");
+    try {
+      this.setState({ loading: true });
+      // pass category here later
+      //   //console.log("getApiData params >>");
+      //   //console.log(apiParams);
+      const data = await ApiService.httpGet("/top-headlines", apiParams);
+      ////console.log("-- logging data --");
+      ////console.log(data);
+      this.setState({
+        articles: data.articles,
+        totalResults: data.totalResults,
+        loading: false,
+      });
+    } catch (err) {
+      console.error(err);
+    } finally {
+      this.setState({ loading: false, page: apiParams.page });
+      //console.log("getApiData finally");
+      //console.log(this.state);
+    }
   }
 
   componentDidMount() {
-    //console.log("this is news componentDidMount");
-    this.getApiData();
+    console.log("* News componentDidMount()");
+    // initial categories
+    const apiParams = {
+      country: "us",
+      //   category: "entertainment",
+      category: this.props.newsCat,
+      page: 1,
+      pageSize: this.defaultPageSize,
+    };
+    this.getApiData(apiParams);
+    console.log(this.props);
+    //this.props.initialProgress();
+  }
+
+  //   componentDidUpdate() {
+  //     console.log("* News componentDidUpdate()");
+  //     return this.props.loadingHandle;
+  //     console.log("* News componentDidUpdate() End *");
+  //   }
+
+  handleNextClick() {
+    const apiParams = {
+      country: "us",
+      category: this.props.newsCat,
+      page: this.state.page + 1,
+      pageSize: this.defaultPageSize,
+    };
+    this.state.page + 1 <=
+      Math.ceil(this.state.totalResults / this.defaultPageSize) &&
+      this.getApiData(apiParams);
+  }
+
+  handlePrevClick() {
+    const apiParams = {
+      country: "us",
+      category: this.props.newsCat,
+      page: this.state.page > 1 && this.state.page - 1,
+      pageSize: this.defaultPageSize,
+    };
+    this.state.page > 1 && this.getApiData(apiParams);
+  }
+
+  handlePaginationClick(event) {
+    //console.log("handlePaginationBtn pressed");
+    //console.log(event.target.innerText);
+    const apiParams = {
+      country: "us",
+      category: this.props.newsCat,
+      page: event.target.innerText,
+      pageSize: this.defaultPageSize,
+    };
+    this.getApiData(apiParams);
   }
 
   render() {
-    ////console.log("this is news render");
+    console.log("News render");
     return (
       <>
+        {console.log("News return")}
         <div className="container my-3">
           <h2 style={{ color: this.props.theme === "light" ? "#000" : "#FFF" }}>
             Top Headlines
           </h2>
           {this.state.loading && <LoadingBar />}
           <div className="row">
-            {this.state.articles.map((news) => {
-              return (
-                news.title !== "[Removed]" && (
-                  <div className="col-md-3" key={news.url}>
-                    <NewsItem
-                      title={`${news.title}`}
-                      description={`${news.description}`}
-                      imageUrl={news.urlToImage}
-                      url={news.url}
-                      author={news.author}
-                      publishedAt={news.publishedAt}
-                      source={news.source.name}
-                      theme={this.props.theme}
-                    />
-                  </div>
-                )
-              );
-            })}
+            {!this.state.loading &&
+              this.state.articles.map((news) => {
+                return (
+                  news.title !== "[Removed]" && (
+                    <div className="col-md-3" key={news.url}>
+                      <NewsItem
+                        title={`${news.title}`}
+                        description={`${news.description}`}
+                        imageUrl={news.urlToImage}
+                        url={news.url}
+                        author={news.author}
+                        publishedAt={news.publishedAt}
+                        source={news.source.name}
+                        theme={this.props.theme}
+                      />
+                    </div>
+                  )
+                );
+              })}
+            {this.props.endProgress()}
           </div>
+          <Pagination
+            handleNextBtn={this.handleNextClick}
+            handlePrevBtn={this.handlePrevClick}
+            handlePaginationBtn={this.handlePaginationClick}
+            totalPages={Math.ceil(
+              this.state.totalResults / this.defaultPageSize
+            )}
+            theme={this.props.theme}
+          />
         </div>
       </>
     );

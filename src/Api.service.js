@@ -5,35 +5,35 @@ const config = {
   apiKey: "218718cb675b4806865e0c64dd0ce2f9",
 };
 
-const httpGet = async (endpoint) => {
+const httpGet = async (endpoint, params) => {
   try {
-    console.log("inside httpGet");
-    const response = await axios.get(`${config.api}${endpoint}`, {
+    //console.log("inside httpGet");
+    ////console.log(params);
+    var response = await axios.get(`${config.api}${endpoint}`, {
       params: {
         apiKey: config.apiKey,
-        country: "us",
-        category: "general",
+        ...params,
       },
     });
-    return handleResponse(response);
+    //return handleResponse(response);
   } catch (error) {
-    console.log("httGet error block");
-    console.log(error);
+    //console.log("httGet error block");
+    //console.log(error);
+  } finally {
+    //console.log("httpGet finally");
+    return handleResponse(response);
   }
 };
 
 const handleResponse = (response) => {
-  //         console.log("inside handleResponse")
-  //   console.log(response);
-  //   console.log(response.status);
-  // You can handle errors here
-
+  //console.log("inside handleResponse");
   if (response.status === 200) {
-    console.log("handleResponse IF loop");
-    console.log(response.data);
+    //console.log("handleResponse IF loop");
+    //console.log(response.data);
     //return "Gaurav Shitole";
     return response.data;
   } else {
+    //console.log("inside handleResponse else block");
     throw Error(response.data | "error");
   }
 };

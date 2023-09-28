@@ -4,13 +4,13 @@ export class NewsItem extends Component {
   render() {
     let { title, description, imageUrl, url, author, publishedAt, source } =
       this.props;
+
     const defaultImage =
       "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252Fdfd23125-b822-44b3-bf42-95cef6f3098e.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&fit=scale-down&width=900";
 
     return (
       <div
         className="card my-3 shadow bg-body-tertiary rounded"
-        style={{ width: "18rem" }}
         data-bs-theme={this.props.theme}>
         <img
           src={imageUrl ? imageUrl : defaultImage}
@@ -18,7 +18,11 @@ export class NewsItem extends Component {
           alt="..."
         />
         <div className="card-body">
-          <span>Source: {source}</span>
+          <span
+            className="position-absolute top-0 start-0 translate-middle p-2 badge rounded-pill text-bg-danger"
+            style={{ zIndex: 1, start: "95%!important" }}>
+            {source}
+          </span>
           <h5 className="card-title">
             {title ? title.slice(0, 50) + "..." : ""}
           </h5>
