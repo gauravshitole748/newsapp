@@ -472,7 +472,7 @@ export class News extends Component {
                   )
                 );
               })}
-            {this.props.endProgress()}
+            {/* {this.props.endProgress()} */}
           </div>
           <Pagination
             handleNextBtn={this.handleNextClick}
